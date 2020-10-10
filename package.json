@@ -1,0 +1,15 @@
+{
+  "name": "phone-validation",
+  "version": "0.1.0",
+  "description": "A validation package for all phone formats in East Africa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "cokoyoh.dev@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.5.2"
+  }
+}
