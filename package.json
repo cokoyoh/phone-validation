@@ -1,18 +1,29 @@
 {
   "name": "phone-validation",
   "version": "0.1.0",
-  "description": "A validation package for all phone formats in East Africa",
+  "description": "Phone validation module for local and international calls",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "dependencies": {
+    "jest": "^26.5.2"
   },
-  "keywords": [],
-  "author": "cokoyoh.dev@gmail.com",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "license": "ISC",
   "devDependencies": {
     "jest": "^26.5.2"
-  }
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cokoyoh/phone-validation.git"
+  },
+  "keywords": [
+    "\"phone",
+    "validation\""
+  ],
+  "author": "cokoyoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cokoyoh/phone-validation/issues"
+  },
+  "homepage": "https://github.com/cokoyoh/phone-validation#README.md"
 }
