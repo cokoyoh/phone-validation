@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "cokoyoh.dev@gmail.com",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@cokoyoh/phone-validation"
+    "registry": "https://npm.pkg.github.com/phone-validation"
   },
   "license": "ISC",
   "devDependencies": {
