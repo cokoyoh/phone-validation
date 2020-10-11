@@ -5,6 +5,7 @@
 
 | Version | Description of Changes |
 | ------- | ---------------------- |
+| 0.1.1   | Correct typos and update readme|
 | 0.1.0   | Initial version.|
 
 

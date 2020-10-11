@@ -1,7 +1,7 @@
 {
   "name": "phone-validation",
-  "version": "0.1.0",
-  "description": "Phone validation module for local and international calls",
+  "version": "0.1.1",
+  "description": "Phone validation module for local and international phone numbers",
   "main": "index.js",
   "dependencies": {
     "jest": "^26.5.2"
