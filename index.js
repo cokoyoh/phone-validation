@@ -1,6 +1,6 @@
-const validate = phoneNumber => {
-  const validPhoneRegEx = /^\+?[2540]?\d{3}[\- ]?\d{3}[\- ]?\d{3}$/;
-  return validPhoneRegEx.test(phoneNumber);
+const isValidPhone = phone => {
+  const validPhoneRegEx = /^\+?(\d{1,3}|0|)[- ]?\d{3}[- ]?\d{3}[- ]?\d{3,4}$/;
+  return validPhoneRegEx.test(phone);
 }
 
-module.exports = { validate };
+module.exports = { isValidPhone };

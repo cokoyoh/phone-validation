@@ -8,6 +8,9 @@
   },
   "keywords": [],
   "author": "cokoyoh.dev@gmail.com",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@cokoyoh/phone-validation"
+  },
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.5.2"
