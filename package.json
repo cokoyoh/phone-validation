@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/cokoyoh/phone-validation/issues"
   },
-  "homepage": "https://github.com/cokoyoh/phone-validation#README.md"
+  "homepage": "https://github.com/cokoyoh/phone-validation#README.md",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
