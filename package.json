@@ -1,24 +1,37 @@
 {
   "name": "phone-validation",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Phone validation module for local and international phone numbers",
   "main": "index.js",
   "dependencies": {
     "jest": "^26.5.2"
   },
   "devDependencies": {
-    "jest": "^26.5.2"
+    "jest": "^26.5.2",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.4.4"
   },
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build": "tsc",
+    "build:watch": "tsc-watch --onsuccess \"node index.js\""
   },
+  "types": "./dist/index.d.ts",
+  "files":[
+    "./dist",
+    "README.MD",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cokoyoh/phone-validation.git"
   },
   "keywords": [
-    "\"phone",
-    "validation\""
+    "phone",
+    "validation",
+    "phone validation",
+    "phone number",
+    "phone validator"
   ],
   "author": "cokoyoh",
   "license": "ISC",
