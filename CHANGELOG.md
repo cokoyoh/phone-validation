@@ -5,7 +5,8 @@
 
 | Version | Description of Changes |
 | ------- | ---------------------- |
-| 0.1.1   | Correct typos and update readme|
+| 0.2.0   | Adds types file for use in typescript projetcs |
+| 0.1.1   | Corrects typos and update readme|
 | 0.1.0   | Initial version.|
 
 

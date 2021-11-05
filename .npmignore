@@ -1,0 +1,7 @@
+/src
+/tests
+tsconfig
+.nvmrc
+node_modules
+.gitignore
+

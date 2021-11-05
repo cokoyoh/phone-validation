@@ -11,11 +11,15 @@ Module to validate various phone numbers return true for valid phone numbers and
 In order to use the package in your modules, 
 - Import the module
 
-      const { isValidPhone } = require('phone-validation')
+```js
+const { isValidPhone } = require('phone-validation')
+```
 
 - The `isValidPhone(phoneNumber)` function returns a true or false for valid or invalid phone numbers
 
-      const validPhone = isValidPhone('(+254)-701-123-456');
+```js
+const validPhone = isValidPhone('(+254)-701-123-456');
+```
 
 
 ## Sample Validation Table
